@@ -3,7 +3,7 @@ Method of securing user passwords using Static and Dynamic Salts
 
 A proposed method of securing user passwords using hashing, static and dynamic salts. When an user account is created, the password is ususally stored in a Database, we have a number of options on how to store the password
 
-Plain Text : Password is stored as plain text in a DB column. This is the worst way of storing a password as accounts can be hijacted merely by getting access to the DB 
+Plain Text : Password is stored as plain text in a DB column. This is the worst way of storing a password as accounts can be hijacked merely by getting access to the DB 
 
 Hashed Password : Password is hashed using a hashing function, like bcrypt and stored in the DB column. This is secure to an extent but still at risk as the only layer of security is the hashing function.
 
