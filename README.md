@@ -23,7 +23,8 @@ Flow :
 5) Password String is Hashed
 6) Hashed Password is stored in the DB 
 
-When creating the Password String in pt4, the implementation can be done as per your liking. You could go with any combination you want. 
+When generating the timestamp in pt3, the logic can be done as per your lking. You can generate a complex timestamp with microseconds, AM/PM, Dates etc
+When creating the Password String in pt4, the logic can be done as per your liking. You could go with any combination you want. 
 
 # Implementation : 
 This is a Python Flask based App, the main code is in main.py, HTML templates are in templates and a DB, SQLite, is in the DB Folder. 
