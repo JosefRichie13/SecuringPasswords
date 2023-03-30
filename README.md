@@ -24,3 +24,15 @@ Flow :
 6) Hashed Password is stored in the DB 
 
 When creating the Password String in pt4, the implementation can be done as per your liking. You could go with any combination you want. 
+
+# Implementation : 
+This is a Python Flask based App, the main code is in main.py, HTML templates are in templates and a DB, SQLite, is in the DB Folder. 
+
+To test the logic : 
+
+1) Deploy this app using PyCharm, make sure to edit all the paths to the DB in the main.py to reference your path
+2) Create 2 users with the same password
+3) Login to the DB and notice that the password hashes for both the users are different
+4) Change the password for one user and use the same password
+5) Login to the DB and notice that the password hash for the changed used is different now, even though we resued the same passwor
+
