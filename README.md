@@ -36,5 +36,5 @@ To test the logic :
 3) Create 2 users with the same password
 4) Login to the DB, via the Shell, and notice that the password hashes for both the users are different
 5) Change the password for one user and use the same password
-6) Login to the DB, via the Shell, and notice that the password hash for the changed used is different now, even though we resued the same passwor
+6) Login to the DB, via the Shell, and notice that the password hash for the changed used is different now, even though we resued the same password
 7) DB, Table, Row Names are all available in the main.py file inside the code
